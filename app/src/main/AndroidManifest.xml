@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kartikpatkar.vitamindtrackerlite"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".DailyConsumptionActivity" />
+        <activity android:name=".MedicalInfoActivity" />
+        <activity android:name=".EndActivity" />
+        <activity android:name=".SkinToneActivity" />
+        <activity
+            android:name=".mainIntroActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ProfileDetailsActivity" />
+        <activity android:name=".SkinExposureActivity" />
+        <activity android:name=".EstimateActivity"/>
+        <activity android:name=".EditProfileActivity"/>
+        <activity android:name=".Alfalfa01Activity"/>
+        <activity android:name=".AlfalfaActivity"/>
+        <activity android:name=".Butter01Activity"/>
+        <activity android:name=".Butter02Activity"/>
+        <activity android:name=".ButterActivity"/>
+        <activity android:name=".EggYolkActivity"/>
+        <activity android:name=".FortifiedMilk01Activity"/>
+        <activity android:name=".FortifiedMilk02Activity"/>
+        <activity android:name=".FortifiedMilkActivity"/>
+        <activity android:name=".Mushroom01Activity"/>
+        <activity android:name=".Mushroom02Activity"/>
+        <activity android:name=".Mushroom03Activity"/>
+        <activity android:name=".Mushroom04Activity"/>
+        <activity android:name=".Mushroom05Activity"/>
+        <activity android:name=".Mushroom06Activity"/>
+        <activity android:name=".MushroomActivity"/>
+        <activity android:name=".FoodSuggestionsActivity"/>
+    </application>
+</manifest>
+
