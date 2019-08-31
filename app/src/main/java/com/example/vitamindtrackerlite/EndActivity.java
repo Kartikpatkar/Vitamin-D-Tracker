@@ -1,14 +1,16 @@
 package com.example.kartikpatkar.vitamindtrackerlite;
 
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 
-public class Alfalfa01Activity extends AppCompatActivity {
-
+public class EndActivity extends AppCompatActivity
+{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_alfalfa01);
-        setTitle("Alfalfa seeds, sprouted");
+        setContentView(R.layout.end_main);
+
+
     }
+
 }
