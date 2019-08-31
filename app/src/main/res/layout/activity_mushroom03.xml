@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mushroom03Activity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="365dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff">
+
+                <TextView />
+            </TableRow>
+
+            <TableRow android:background="#999999">
+
+                <TextView />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:background="#ffffff">
+
+                <TextView
+                    android:layout_width="192dp"
+                    android:layout_span="2"
+                    android:text="Amount Per Serving"
+                    android:textAlignment="textStart"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="190dp"
+                    android:text="1 cup, pieces(156g)        "
+                    android:textAlignment="viewEnd"
+                    android:textColor="#000000" />
+
+            </TableRow>
+
+            <TableRow
+                android:background="#ffffff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text=" Calories "
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="55dp"
+                    android:text="      43.68"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text=" Calories from Fat  "
+                    android:textAlignment="viewEnd"
+                    android:textColor="#000000" />
+            </TableRow>
+
+            <TableRow android:background="#999999">
+
+                <TextView />
+            </TableRow>
+
+            <TableRow android:background="#ffffff">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_span="3"
+                    android:text="% Daily Values*        "
+                    android:textAlignment="viewEnd"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:background="#ffffff">
+
+                <TextView
+                    android:text="Total Fat "
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:text="0.73g"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="1.12%        "
+                    android:textAlignment="viewEnd"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:background="#ffffff">
+
+                <TextView
+                    android:text="      Saturated Fat "
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="0.1g"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="0.5%        "
+                    android:textAlignment="viewEnd"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:background="#ffffff">
+
+                <TextView
+                    android:text="      Trans Fat 0g"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="0g"
+                    android:textColor="#000000" />
+            </TableRow>
+
+            <TableRow android:background="#ffffff">
+
+                <TextView
+                    android:text="Cholesterol 0mg"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:text="0mg"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="0%        "
+                    android:textAlignment="viewEnd"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:background="#ffffff">
+
+                <TextView
+                    android:text="Sodium "
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:text="0mg"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="168dp"
+                    android:text="0%        "
+                    android:textAlignment="viewEnd"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:background="#ffffff">
+
+                <TextView
+                    android:text="Total Carbohydrates "
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:text="8.25g"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="3%        "
+                    android:textAlignment="viewEnd"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:background="#ffffff">
+
+                <TextView
+                    android:text="       Dietary Fiber "
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="3.43g"
+                    android:textColor="#000000" />
+            </TableRow>
+
+            <TableRow android:background="#ffffff">
+
+                <TextView
+                    android:text="       Sugars "
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="3.65g"
+                    android:textColor="#000000" />
+            </TableRow>
+
+            <TableRow android:background="#ffffff">
+
+                <TextView
+                    android:text="Protein "
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:text="3.39g"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="7%        "
+                    android:textAlignment="viewEnd"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:background="#999999">
+
+                <TextView />
+            </TableRow>
+
+            <TableRow android:background="#ffffff">
+
+                <TextView
+                    android:text="Thiamin "
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:text="0.11mg"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="7%        "
+                    android:textAlignment="viewEnd"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:background="#ffffff">
+
+                <TextView
+                    android:text="Riboflavin "
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:text="0.47mg"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="28%        "
+                    android:textAlignment="viewEnd"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:background="#ffffff">
+
+                <TextView
+                    android:text="Niacin "
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:text="6.96mg"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="35%        "
+                    android:textAlignment="viewEnd"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:background="#ffffff">
+
+                <TextView
+                    android:text="Vitamin B6 "
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:text="0.15mg"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="8%        "
+                    android:textAlignment="viewEnd"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:background="#ffffff">
+
+                <TextView
+                    android:text="Vitamin C "
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:text="6.24mg"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="10%        "
+                    android:textAlignment="viewEnd"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:background="#ffffff">
+
+                <TextView
+                    android:text="Vitamin D "
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:text="12.48IU"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="3%        "
+                    android:textAlignment="viewEnd"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:background="#999999">
+
+                <TextView />
+            </TableRow>
+
+            <TableRow android:background="#ffffff">
+
+                <TextView
+                    android:text="Copper "
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:text="9.36mg"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="1%        "
+                    android:textAlignment="viewEnd"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:background="#ffffff">
+
+            </TableRow>
+
+            <TableRow android:background="#ffffff">
+
+                <TextView
+                    android:text="Magnesium "
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:text="18.72mg"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="3%        "
+                    android:textAlignment="viewEnd"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:background="#ffffff">
+
+                <TextView
+                    android:text="Manganese "
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:text="0.18mg"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="9%        "
+                    android:textAlignment="viewEnd"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:background="#ffffff">
+
+                <TextView
+                    android:text="Potassium "
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:text="555.36mg"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="16%        "
+                    android:textAlignment="viewEnd"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:background="#ffffff">
+
+                <TextView
+                    android:text="Selenium "
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:text="20.9μg"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text="30%        "
+                    android:textAlignment="viewEnd"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:background="#ffffff">
+
+                <TextView
+                    android:text="Zinc "
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:text="1.93mg"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:text=" 9%        "
+                    android:textAlignment="viewEnd"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:background="#ffffff">
+
+                <TextView
+                    android:layout_span="3"
+                    android:textSize="13dp"
+                    android:text="* Percent Daily Values are based on a 2000 calorie diet.Your
+   daily value may be higher or lower depending on your
+   calorie needs." />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
